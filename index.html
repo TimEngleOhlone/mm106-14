@@ -1,0 +1,48 @@
+<!doctype html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body onload="CheckBrowser()">
+
+    <h1>Enter Items and Quantity</h1>
+    <form name="ShoppingList">
+       
+        <div id="shopping">
+            
+            <table>
+                <tr>
+                    <td>Item<input type="text" name="item"></td>
+                    <td>Quantity<input type="text" name="data"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Save" onclick="SaveItem();">
+                        <input type="button" value="Modify" onclick="ModifyItem()">
+                        <input type="button" value="Remove" onclick="RemoveItem()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="items_table">
+            <h1>Shopping List</h1>
+            <table id="list"></table>
+            <p>
+                <label><input type="button" value="Clear" onclick="ClearAll()">
+                    Remove All Items</label>
+            </p>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

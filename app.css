@@ -1,0 +1,52 @@
+html body {
+    padding: 0;
+    margin: 0 5% 0 5%;
+    max-width: 800px;
+
+}
+
+h1{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+td,th {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+    background-color: #ccc;
+}
+
+label {
+    vertical-align: top;
+}
+
+input, select, textarea{
+    width: auto;
+    margin-left: 8px;
+    padding: 5px;
+    border: 1px solid #aaa;
+}
+
+#shopping {
+    padding: 6px;
+    border: 1px dotted blue;
+    background-color: #ccc;
+}
+
+/* .shoppinglist-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#items_table {
+    margin-top: 12px;
+    padding: 6px;
+    border: 1px dotted blue;
+    background-color: #ccc;
+}
+
+#items_table h1 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+}
